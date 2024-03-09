@@ -1,0 +1,5 @@
+smallerc (1.0.1+dfsg-1~exp1) experimental; urgency=medium
+
+  * Initial release. Closes: #1065664.
+
+ -- Stephen Kitt <skitt@debian.org>  Fri, 08 Mar 2024 06:22:03 +0100

@@ -1,0 +1,22 @@
+Source: smallerc
+Maintainer: Stephen Kitt <skitt@debian.org>
+Section: devel
+Priority: optional
+Build-Depends:
+ debhelper (>= 9~),
+ nasm,
+Standards-Version: 4.6.2
+Vcs-Browser: https://salsa.debian.org/debian/smallerc
+Vcs-Git: https://salsa.debian.org/debian/smallerc.git
+Homepage: https://github.com/alexfru/SmallerC
+Rules-Requires-Root: no
+
+Package: smallerc
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, nasm
+Description: single-pass C compiler for 16- and 32-bit x86/MIPS platforms
+ Smaller C is a simple single-pass C compiler with support for most of
+ C89 and C99. It targets 16- and 32-bit x86, and MIPS, on DOS,
+ Windows, Linux, and older versions of macOS.
+ .
+ Smaller C is primarily useful for building DOS and UEFI binaries.
